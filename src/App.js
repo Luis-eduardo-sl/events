@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Texto from './components/Texto';
+import Botao from './components/Botao.js';
+import Form from './components/Form.js';
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <Texto/>
+        <Botao num="2"/>
+        <Botao num= "3"/>
+        <Form/>
       </header>
     </div>
   );
